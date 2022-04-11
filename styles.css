@@ -1,0 +1,107 @@
+body{
+  background-color: rgb(223, 223, 246);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+li.navbar-buttons {
+    float: left;
+  }
+button{
+        display: inline-block;
+        background-color: #9aa1e7;
+        border-radius: 10px;
+        border: 1px double #cccccc;
+        color: #ecebf6;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+.submit-text{
+  font-size: small;
+}
+#POI{
+list-style-position: outside;
+list-style-type: circle;
+padding: 6px;
+margin-left: 20px;
+}
+button:hover {
+  background-color: rgb(196, 196, 240);
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+.front-page-main-pictures{
+    width: 700px;
+    height:400px;
+    box-align: left;
+}
+.header{
+  margin-top: 50px;
+}
+h1{
+    padding-top: 0;
+    color: rgb(18, 18, 179);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+h2{
+    color: rgb(18, 18, 179);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+h3{
+    color: rgb(18, 18, 179);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+p{
+  text-align: justify;
+  padding:20px 10px;
+  color:rgb(18, 18, 179)
+}
+.car-versions {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      width: 100%;
+      border-collapse: separate;
+    }
+    td{
+      border: 2px solid ; color: rgb(56, 56, 107);
+      text-align: center;
+      padding: 8px;
+    }
+    th{
+        color: rgb(18, 18, 179);
+        font-weight: bold;
+        text-align: center;
+        padding: 8px; 
+    }
+    #submit-form{
+        box-sizing: content-box;
+        position:relative;
+        top: 10px;
+        right: 0;
+        width: 600px;
+        height: 200px;
+        text-align: center;
+        border: 2px ;
+        border-color: blue;
+        background-color: aliceblue;
+        color: rgb(18, 18, 179);
+        font-size: smaller;
+    }
